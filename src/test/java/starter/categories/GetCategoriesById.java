@@ -40,7 +40,7 @@ public class GetCategoriesById {
 
     @Step("User set api get request categories by id not found")
     public String setApiEndpointGetCategoriesByIDNotFound(){
-        return url + "/categories/14045";
+        return url + "/categories/90000";
     }
 
     @Step("User send GET api request categories by id not found")

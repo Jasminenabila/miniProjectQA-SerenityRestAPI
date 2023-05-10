@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="Categories" time="2.126" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="Categories" time="1.89" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ID"/>
     <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/14.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /Users/jasmine/Documents/alterra-mini-project/target/surefire 2023-05-09T22-56-05_473-jvmRun1 surefire16482905301063620658tmp surefire_06180991636519209706tmp"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /Users/jasmine/Documents/alterra-mini-project/target/surefire 2023-05-10T20-32-12_187-jvmRun1 surefire6824271557621672016tmp surefire_08340428107149342152tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/jasmine/Documents/alterra-mini-project/target/test-classes:/Users/jasmine/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/jasmine/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/jasmine/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/jasmine/.m2/repository/net/serenity-bdd/serenity-core/2.4.51/serenity-core-2.4.51.jar:/Users/jasmine/.m2/repository/net/serenity-bdd/serenity-model/2.4.51/serenity-model-2.4.51.jar:/Users/jasmine/.m2/repository/org/apache/commons/commons-text/1.9/commons-text-1.9.jar:/Users/jasmine/.m2/repository/commons-net/commons-net/3.6/commons-net-3.6.jar:/Users/jasmine/.m2/repository/com/google/guava/guava/30.1-jre/guava-30.1-jre.jar:/Users/jasmine/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/jasmine/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/jasmine/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/jasmine/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/Users/jasmine/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/jasmine/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/jasmine/.m2/repository/com/google/inject/guice/5.0.1/guice-5.0.1.jar:/Users/jasmine/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/jasmine/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/jasmine/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/jasmine/.m2/repository/com/thoughtworks/xstream/xstream/1.4.17/xstream-1.4.17.jar:/Users/jasmine/.m2/repository/io/github/x-stream/mxparser/1.2.1/mxparser-1.2.1.jar:/Users/jasmine/.m2/repository/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar:/Users/jasmine/.m2/repository/io/cucumber/cucumber-core/6.10.2/cucumber-core-6.10.2.jar:/Users/jasmine/.m2/repository/io/cucumber/cucumber-gherkin/6.10.2/cucumber-gherkin-6.10.2.jar:/Users/jasmine/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.10.2/cucumber-gherkin-messages-6.10.2.jar:/Users/jasmine/.m2/repository/io/cucumber/messages/14.0.1/messages-14.0.1.jar:/Users/jasmine/.m2/repository/io/cucumber/tag-expressions/3.0.0/tag-expressions-3.0.0.jar:/Users/jasmine/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/jasmine/.m2/repository/io/cucumber/cucumber-plugin/6.10.2/cucumber-plugin-6.10.2.jar:/Users/jasmine/.m2/repository/io/cucumber/docstring/6.10.2/docstring-6.10.2.jar:/Users/jasmine/.m2/repository/io/cucumber/html-formatter/12.0.0/html-formatter-12.0.0.jar:/Users/jasmine/.m2/repository/io/cucumber/create-meta/3.0.0/create-meta-3.0.0.jar:/Users/jasmine/.m2/repository/com/typesafe/config/1.3.1/config-1.3.1.jar:/Users/jasmine/.m2/repository/org/imgscalr/imgscalr-lib/4.2/imgscalr-lib-4.2.jar:/Users/jasmine/.m2/repository/org/awaitility/awaitility/4.0.3/awaitility-4.0.3.jar:/Users/jasmine/.m2/repository/org/freemarker/freemarker/2.3.29/freemarker-2.3.29.jar:/Users/jasmine/.m2/repository/net/sourceforge/jexcelapi/jxl/2.6.12/jxl-2.6.12.jar:/Users/jasmine/.m2/repository/org/asciidoctor/asciidoctorj/2.5.1/asciidoctorj-2.5.1.jar:/Users/jasmine/.m2/repository/org/asciidoctor/asciidoctorj-api/2.5.1/asciidoctorj-api-2.5.1.jar:/Users/jasmine/.m2/repository/org/jruby/jruby/9.2.17.0/jruby-9.2.17.0.jar:/Users/jasmine/.m2/repository/org/jruby/jruby-core/9.2.17.0/jruby-core-9.2.17.0.jar:/Users/jasmine/.m2/repository/com/github/jnr/jnr-netdb/1.2.0/jnr-netdb-1.2.0.jar:/Users/jasmine/.m2/repository/com/github/jnr/jnr-enxio/0.32.3/jnr-enxio-0.32.3.jar:/Users/jasmine/.m2/repository/com/github/jnr/jnr-unixsocket/0.38.5/jnr-unixsocket-0.38.5.jar:/Users/jasmine/.m2/repository/com/github/jnr/jnr-posix/3.1.4/jnr-posix-3.1.4.jar:/Users/jasmine/.m2/repository/com/github/jnr/jnr-constants/0.10.1/jnr-constants-0.10.1.jar:/Users/jasmine/.m2/repository/com/github/jnr/jffi/1.3.1/jffi-1.3.1.jar:/Users/jasmine/.m2/repository/com/github/jnr/jffi/1.3.1/jffi-1.3.1-native.jar:/Users/jasmine/.m2/repository/org/jruby/joni/joni/2.1.31/joni-2.1.31.jar:/Users/jasmine/.m2/repository/org/jruby/jcodings/jcodings/1.0.46/jcodings-1.0.46.jar:/Users/jasmine/.m2/repository/org/jruby/dirgra/0.3/dirgra-0.3.jar:/Users/jasmine/.m2/repository/com/headius/invokebinder/1.11/invokebinder-1.11.jar:/Users/jasmine/.m2/repository/com/headius/options/1.4/options-1.4.jar:/Users/jasmine/.m2/repository/com/jcraft/jzlib/1.1.3/jzlib-1.1.3.jar:/Users/jasmine/.m2/repository/com/martiansoftware/nailgun-server/0.9.1/nailgun-server-0.9.1.jar:/Users/jasmine/.m2/repository/com/headius/backport9/1.8/backport9-1.8.jar:/Users/jasmine/.m2/repository/javax/annotation/javax.annotation-api/1.3.1/javax.annotation-api-1.3.1.jar:/Users/jasmine/.m2/repository/org/jruby/jruby-stdlib/9.2.17.0/jruby-stdlib-9.2.17.0.jar:/Users/jasmine/.m2/repository/net/bytebuddy/byte-buddy/1.11.1/byte-buddy-1.11.1.jar:/Users/jasmine/.m2/repository/net/bytebuddy/byte-buddy-agent/1.11.1/byte-buddy-agent-1.11.1.jar:/Users/jasmine/.m2/repository/org/objenesis/objenesis/3.1/objenesis-3.1.jar:/Users/jasmine/.m2/repository/net/serenity-bdd/serenity-reports/2.4.51/serenity-reports-2.4.51.jar:/Users/jasmine/.m2/repository/net/serenity-bdd/serenity-stats/2.4.51/serenity-stats-2.4.51.jar:/Users/jasmine/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.5.0/kotlin-stdlib-1.5.0.jar:/Users/jasmine/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/Users/jasmine/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.5.0/kotlin-stdlib-common-1.5.0.jar:/Users/jasmine/.m2/repository/net/serenity-bdd/serenity-reports-configuration/2.4.51/serenity-reports-configuration-2.4.51.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-all/0.34.30/flexmark-all-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark/0.34.30/flexmark-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-abbreviation/0.34.30/flexmark-ext-abbreviation-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-admonition/0.34.30/flexmark-ext-admonition-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-anchorlink/0.34.30/flexmark-ext-anchorlink-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-aside/0.34.30/flexmark-ext-aside-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-attributes/0.34.30/flexmark-ext-attributes-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-autolink/0.34.30/flexmark-ext-autolink-0.34.30.jar:/Users/jasmine/.m2/repository/org/nibor/autolink/autolink/0.6.0/autolink-0.6.0.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-definition/0.34.30/flexmark-ext-definition-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-emoji/0.34.30/flexmark-ext-emoji-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-enumerated-reference/0.34.30/flexmark-ext-enumerated-reference-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-escaped-character/0.34.30/flexmark-ext-escaped-character-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-footnotes/0.34.30/flexmark-ext-footnotes-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-issues/0.34.30/flexmark-ext-gfm-issues-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.34.30/flexmark-ext-gfm-strikethrough-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.34.30/flexmark-ext-gfm-tables-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.34.30/flexmark-ext-gfm-tasklist-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-users/0.34.30/flexmark-ext-gfm-users-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-gitlab/0.34.30/flexmark-ext-gitlab-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-jekyll-front-matter/0.34.30/flexmark-ext-jekyll-front-matter-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-jekyll-tag/0.34.30/flexmark-ext-jekyll-tag-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-media-tags/0.34.30/flexmark-ext-media-tags-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-test-util/0.34.30/flexmark-test-util-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-ins/0.34.30/flexmark-ext-ins-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-xwiki-macros/0.34.30/flexmark-ext-xwiki-macros-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-superscript/0.34.30/flexmark-ext-superscript-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-tables/0.34.30/flexmark-ext-tables-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-toc/0.34.30/flexmark-ext-toc-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-typographic/0.34.30/flexmark-ext-typographic-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-wikilink/0.34.30/flexmark-ext-wikilink-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.34.30/flexmark-ext-yaml-front-matter-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-ext-youtube-embedded/0.34.30/flexmark-ext-youtube-embedded-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-formatter/0.34.30/flexmark-formatter-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-html-parser/0.34.30/flexmark-html-parser-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-jira-converter/0.34.30/flexmark-jira-converter-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-pdf-converter/0.34.30/flexmark-pdf-converter-0.34.30.jar:/Users/jasmine/.m2/repository/com/openhtmltopdf/openhtmltopdf-core/0.0.1-RC13/openhtmltopdf-core-0.0.1-RC13.jar:/Users/jasmine/.m2/repository/com/openhtmltopdf/openhtmltopdf-pdfbox/0.0.1-RC13/openhtmltopdf-pdfbox-0.0.1-RC13.jar:/Users/jasmine/.m2/repository/org/apache/pdfbox/pdfbox/2.0.8/pdfbox-2.0.8.jar:/Users/jasmine/.m2/repository/org/apache/pdfbox/fontbox/2.0.8/fontbox-2.0.8.jar:/Users/jasmine/.m2/repository/org/apache/pdfbox/xmpbox/2.0.8/xmpbox-2.0.8.jar:/Users/jasmine/.m2/repository/de/rototor/pdfbox/graphics2d/0.12/graphics2d-0.12.jar:/Users/jasmine/.m2/repository/com/openhtmltopdf/openhtmltopdf-rtl-support/0.0.1-RC13/openhtmltopdf-rtl-support-0.0.1-RC13.jar:/Users/jasmine/.m2/repository/com/ibm/icu/icu4j/59.1/icu4j-59.1.jar:/Users/jasmine/.m2/repository/com/openhtmltopdf/openhtmltopdf-jsoup-dom-converter/0.0.1-RC13/openhtmltopdf-jsoup-dom-converter-0.0.1-RC13.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-profile-pegdown/0.34.30/flexmark-profile-pegdown-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-util/0.34.30/flexmark-util-0.34.30.jar:/Users/jasmine/.m2/repository/com/vladsch/flexmark/flexmark-youtrack-converter/0.34.30/flexmark-youtrack-converter-0.34.30.jar:/Users/jasmine/.m2/repository/es/nitaur/markdown/txtmark/0.16/txtmark-0.16.jar:/Users/jasmine/.m2/repository/net/serenity-bdd/serenity-report-resources/2.4.51/serenity-report-resources-2.4.51.jar:/Users/jasmine/.m2/repository/com/google/code/gson/gson/2.8.7/gson-2.8.7.jar:/Users/jasmine/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.4/jackson-core-2.12.4.jar:/Users/jasmine/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.4/jackson-databind-2.12.4.jar:/Users/jasmine/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.4/jackson-annotations-2.12.4.jar:/Users/jasmine/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/jasmine/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-server/3.141.59/selenium-server-3.141.59.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/jasmine/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/jasmine/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/jasmine/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.4.12.v20180830/jetty-repacked-9.4.12.v20180830.jar:/Users/jasmine/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/jasmine/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/jasmine/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/jasmine/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/jasmine/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.47.1/htmlunit-2.47.1.jar:/Users/jasmine/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/Users/jasmine/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/Users/jasmine/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.47.0/htmlunit-core-js-2.47.0.jar:/Users/jasmine/.m2/repository/net/sourceforge/htmlunit/neko-htmlunit/2.47.1/neko-htmlunit-2.47.1.jar:/Users/jasmine/.m2/repository/xerces/xercesImpl/2.12.0/xercesImpl-2.12.0.jar:/Users/jasmine/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/jasmine/.m2/repository/net/sourceforge/htmlunit/htmlunit-cssparser/1.7.0/htmlunit-cssparser-1.7.0.jar:/Users/jasmine/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/jasmine/.m2/repository/com/shapesecurity/salvation2/3.0.0/salvation2-3.0.0.jar:/Users/jasmine/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.4.36.v20210114/websocket-client-9.4.36.v20210114.jar:/Users/jasmine/.m2/repository/org/eclipse/jetty/jetty-client/9.4.36.v20210114/jetty-client-9.4.36.v20210114.jar:/Users/jasmine/.m2/repository/org/eclipse/jetty/jetty-http/9.4.36.v20210114/jetty-http-9.4.36.v20210114.jar:/Users/jasmine/.m2/repository/org/eclipse/jetty/jetty-util/9.4.36.v20210114/jetty-util-9.4.36.v20210114.jar:/Users/jasmine/.m2/repository/org/eclipse/jetty/jetty-io/9.4.36.v20210114/jetty-io-9.4.36.v20210114.jar:/Users/jasmine/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.4.36.v20210114/websocket-common-9.4.36.v20210114.jar:/Users/jasmine/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.4.36.v20210114/websocket-api-9.4.36.v20210114.jar:/Users/jasmine/.m2/repository/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/htmlunit-driver/2.47.1/htmlunit-driver-2.47.1.jar:/Users/jasmine/.m2/repository/com/codeborne/phantomjsdriver/1.4.4/phantomjsdriver-1.4.4.jar:/Users/jasmine/.m2/repository/io/appium/java-client/7.5.1/java-client-7.5.1.jar:/Users/jasmine/.m2/repository/commons-validator/commons-validator/1.7/commons-validator-1.7.jar:/Users/jasmine/.m2/repository/commons-digester/commons-digester/2.1/commons-digester-2.1.jar:/Users/jasmine/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar:/Users/jasmine/.m2/repository/net/sf/opencsv/opencsv/2.0/opencsv-2.0.jar:/Users/jasmine/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/jasmine/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/jasmine/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/jasmine/.m2/repository/org/fluentlenium/fluentlenium-core/0.10.2/fluentlenium-core-0.10.2.jar:/Users/jasmine/.m2/repository/io/github/bonigarcia/webdrivermanager/4.4.1/webdrivermanager-4.4.1.jar:/Users/jasmine/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/Users/jasmine/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/Users/jasmine/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.2/httpcore5-h2-5.0.2.jar:/Users/jasmine/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/Users/jasmine/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/Users/jasmine/.m2/repository/com/jhlabs/filters/2.0.235/filters-2.0.235.jar:/Users/jasmine/.m2/repository/com/paulhammant/ngwebdriver/1.1.5/ngwebdriver-1.1.5.jar:/Users/jasmine/.m2/repository/joda-time/joda-time/2.8.2/joda-time-2.8.2.jar:/Users/jasmine/.m2/repository/com/google/jimfs/jimfs/1.1/jimfs-1.1.jar:/Users/jasmine/.m2/repository/org/mockito/mockito-core/3.3.3/mockito-core-3.3.3.jar:/Users/jasmine/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar:/Users/jasmine/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/Users/jasmine/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-core-2.3.0.1.jar:/Users/jasmine/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/jasmine/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/jasmine/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/jasmine/.m2/repository/net/serenity-bdd/serenity-junit/2.4.51/serenity-junit-2.4.51.jar:/Users/jasmine/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/jasmine/.m2/repository/net/serenity-bdd/serenity-rest-assured/2.4.51/serenity-rest-assured-2.4.51.jar:/Users/jasmine/.m2/repository/org/codehaus/groovy/groovy-json/3.0.8/groovy-json-3.0.8.jar:/Users/jasmine/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/jasmine/.m2/repository/net/serenity-bdd/serenity-screenplay/2.4.51/serenity-screenplay-2.4.51.jar:/Users/jasmine/.m2/repository/net/serenity-bdd/serenity-screenplay-rest/2.4.51/serenity-screenplay-rest-2.4.51.jar:/Users/jasmine/.m2/repository/net/serenity-bdd/serenity-cucumber6/2.4.51/serenity-cucumber6-2.4.51.jar:/Users/jasmine/.m2/repository/net/serenity-bdd/serenity-screenplay-webdriver/2.4.51/serenity-screenplay-webdriver-2.4.51.jar:/Users/jasmine/.m2/repository/io/cucumber/cucumber-java/6.10.4/cucumber-java-6.10.4.jar:/Users/jasmine/.m2/repository/org/apiguardian/apiguardian-api/1.1.1/apiguardian-api-1.1.1.jar:/Users/jasmine/.m2/repository/io/cucumber/cucumber-junit/6.10.4/cucumber-junit-6.10.4.jar:/Users/jasmine/.m2/repository/io/cucumber/datatable-matchers/3.4.0/datatable-matchers-3.4.0.jar:/Users/jasmine/.m2/repository/io/cucumber/datatable/3.4.0/datatable-3.4.0.jar:/Users/jasmine/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/jasmine/.m2/repository/org/apache/commons/commons-csv/1.5/commons-csv-1.5.jar:/Users/jasmine/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/jasmine/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/jasmine/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/jasmine/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/jasmine/.m2/repository/io/rest-assured/rest-assured/4.3.2/rest-assured-4.3.2.jar:/Users/jasmine/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/jasmine/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/jasmine/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/jasmine/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/jasmine/.m2/repository/io/rest-assured/json-path/4.3.3/json-path-4.3.3.jar:/Users/jasmine/.m2/repository/io/rest-assured/rest-assured-common/4.3.3/rest-assured-common-4.3.3.jar:/Users/jasmine/.m2/repository/io/rest-assured/xml-path/4.3.3/xml-path-4.3.3.jar:/Users/jasmine/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/jasmine/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/jasmine/.m2/repository/org/codehaus/groovy/groovy/3.0.6/groovy-3.0.6.jar:/Users/jasmine/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.6/groovy-xml-3.0.6.jar:/Users/jasmine/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/jasmine/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/jasmine/.m2/repository/org/assertj/assertj-core/3.6.2/assertj-core-3.6.2.jar:/Users/jasmine/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/jasmine/.m2/repository/org/json/json/20210307/json-20210307.jar:"/>
@@ -56,12 +56,12 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="58.0"/>
   </properties>
-  <testcase name="Add Categories - Add Categories with data valid" classname="Categories" time="0.292">
+  <testcase name="Add Categories - Add Categories with data valid" classname="Categories" time="0.249">
     <system-out><![CDATA[
 Scenario: Add Categories - Add Categories with data valid      &amp#27;[90m# src/test/resources/api/Categories.feature:6&amp#27;[0m
-22:56:15.605 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/jasmine/Documents/alterra-mini-project/src/test/resources/api/Categories.feature
-22:56:15.605 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///Users/jasmine/Documents/alterra-mini-project/src/test/resources/api/Categories.feature is not under the 'features' directory. Requirements report will not be correctly generated!
-22:56:15.607 [pool-2-thread-1] INFO  - 
+20:32:21.348 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/jasmine/Documents/alterra-mini-project/src/test/resources/api/Categories.feature
+20:32:21.348 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///Users/jasmine/Documents/alterra-mini-project/src/test/resources/api/Categories.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+20:32:21.349 [pool-2-thread-1] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
@@ -69,21 +69,21 @@ Scenario: Add Categories - Add Categories with data valid      &amp#27;[90m# src
 
 Add Categories - Add Categories with data valid(categories;add-categories---add-categories-with-data-valid)
 --------------------------------------------------------------------------------
-22:56:15.668 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.setAPIUrlGetProducts - User set api post request add products data valid
-22:56:15.669 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User set api post request add products data valid
+20:32:21.405 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.setAPIUrlGetProducts - User set api post request add products data valid
+20:32:21.405 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User set api post request add products data valid
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser set api post request add categories data valid&amp#27;[0m    &amp#27;[90m# starter.stepdefinitions.CategoriesSteps.setAPIUrlGetProducts()&amp#27;[0m
-22:56:15.671 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userSendPostApiRequestAddCategoriesDataValid - User send post api request add categories data valid
-22:56:15.673 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AddCategories.sendRequestAddCategoriesSuccess - User set api post request add products data valid
-22:56:15.673 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User set api post request add products data valid
-22:56:15.815 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User send post api request add categories data valid
+20:32:21.407 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userSendPostApiRequestAddCategoriesDataValid - User send post api request add categories data valid
+20:32:21.408 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AddCategories.sendRequestAddCategoriesSuccess - User set api post request add products data valid
+20:32:21.409 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User set api post request add products data valid
+20:32:21.512 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User send post api request add categories data valid
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser send post api request add categories data valid&amp#27;[0m    &amp#27;[90m# starter.stepdefinitions.CategoriesSteps.userSendPostApiRequestAddCategoriesDataValid()&amp#27;[0m
-22:56:15.820 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userReceiveValidGetResponseCodeAddCategories - User receive valid get response code 200 add categories
-22:56:15.822 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User receive valid get response code 200 add categories
+20:32:21.514 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userReceiveValidGetResponseCodeAddCategories - User receive valid get response code 200 add categories
+20:32:21.517 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User receive valid get response code 200 add categories
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser receive valid get response code 200 add categories&amp#27;[0m &amp#27;[90m# starter.stepdefinitions.CategoriesSteps.userReceiveValidGetResponseCodeAddCategories()&amp#27;[0m
-22:56:15.825 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userReceiveValidGetResponseBodyForAddCategories - User receive valid get response body for add categories
-22:56:15.862 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User receive valid get response body for add categories
+20:32:21.519 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userReceiveValidGetResponseBodyForAddCategories - User receive valid get response body for add categories
+20:32:21.561 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User receive valid get response body for add categories
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser receive valid get response body for add categories&amp#27;[0m  &amp#27;[90m# starter.stepdefinitions.CategoriesSteps.userReceiveValidGetResponseBodyForAddCategories()&amp#27;[0m
-22:56:15.863 [pool-2-thread-1] INFO  - 
+20:32:21.563 [pool-2-thread-1] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
@@ -93,12 +93,12 @@ Add Categories - Add Categories with data valid
 ----------------------------------------------------------------------
 ]]></system-out>
   </testcase>
-  <testcase name="Add Categories - Add Categories with name empty" classname="Categories" time="0.194">
+  <testcase name="Add Categories - Add Categories with name empty" classname="Categories" time="0.163">
     <system-out><![CDATA[
 Scenario: Add Categories - Add Categories with name empty                 &amp#27;[90m# src/test/resources/api/Categories.feature:12&amp#27;[0m
-22:56:15.872 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/jasmine/Documents/alterra-mini-project/src/test/resources/api/Categories.feature
-22:56:15.872 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///Users/jasmine/Documents/alterra-mini-project/src/test/resources/api/Categories.feature is not under the 'features' directory. Requirements report will not be correctly generated!
-22:56:15.874 [pool-2-thread-1] INFO  - 
+20:32:21.571 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/jasmine/Documents/alterra-mini-project/src/test/resources/api/Categories.feature
+20:32:21.571 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///Users/jasmine/Documents/alterra-mini-project/src/test/resources/api/Categories.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+20:32:21.572 [pool-2-thread-1] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
@@ -106,21 +106,21 @@ Scenario: Add Categories - Add Categories with name empty                 &amp#2
 
 Add Categories - Add Categories with name empty(categories;add-categories---add-categories-with-name-empty)
 --------------------------------------------------------------------------------
-22:56:15.892 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.setAPIUrlGetProducts - User set api post request add products data valid
-22:56:15.892 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User set api post request add products data valid
+20:32:21.594 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.setAPIUrlGetProducts - User set api post request add products data valid
+20:32:21.594 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User set api post request add products data valid
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser set api post request add categories data valid&amp#27;[0m               &amp#27;[90m# starter.stepdefinitions.CategoriesSteps.setAPIUrlGetProducts()&amp#27;[0m
-22:56:15.894 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userSendPostApiRequestAddCategoriesNameEmpty - User send post api request add categories name empty
-22:56:15.895 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AddCategories.sendRequestAddCategoriesNameEmpty - User set api post request add products data valid
-22:56:15.895 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User set api post request add products data valid
-22:56:16.046 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User send post api request add categories name empty
+20:32:21.596 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userSendPostApiRequestAddCategoriesNameEmpty - User send post api request add categories name empty
+20:32:21.597 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AddCategories.sendRequestAddCategoriesNameEmpty - User set api post request add products data valid
+20:32:21.597 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User set api post request add products data valid
+20:32:21.702 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User send post api request add categories name empty
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser send post api request add categories name empty&amp#27;[0m               &amp#27;[90m# starter.stepdefinitions.CategoriesSteps.userSendPostApiRequestAddCategoriesNameEmpty()&amp#27;[0m
-22:56:16.048 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userReceiveValidGetResponseCodeAddCategoriesNameEmpty - User receive valid get response code 500 add categories name empty
-22:56:16.048 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User receive valid get response code 500 add categories name empty
+20:32:21.704 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userReceiveValidGetResponseCodeAddCategoriesNameEmpty - User receive valid get response code 500 add categories name empty
+20:32:21.711 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User receive valid get response code 500 add categories name empty
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser receive valid get response code 500 add categories name empty&amp#27;[0m &amp#27;[90m# starter.stepdefinitions.CategoriesSteps.userReceiveValidGetResponseCodeAddCategoriesNameEmpty()&amp#27;[0m
-22:56:16.050 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userReceiveValidGetResponseBodyForAddCategoriesNameEmpty - User receive valid get response body for add categories name empty
-22:56:16.056 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User receive valid get response body for add categories name empty
+20:32:21.714 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userReceiveValidGetResponseBodyForAddCategoriesNameEmpty - User receive valid get response body for add categories name empty
+20:32:21.724 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User receive valid get response body for add categories name empty
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser receive valid get response body for add categories name empty&amp#27;[0m  &amp#27;[90m# starter.stepdefinitions.CategoriesSteps.userReceiveValidGetResponseBodyForAddCategoriesNameEmpty()&amp#27;[0m
-22:56:16.057 [pool-2-thread-1] INFO  - 
+20:32:21.726 [pool-2-thread-1] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
@@ -130,12 +130,12 @@ Add Categories - Add Categories with name empty
 ----------------------------------------------------------------------
 ]]></system-out>
   </testcase>
-  <testcase name="Add Categories - Add Categories with name input integer" classname="Categories" time="0.189">
+  <testcase name="Add Categories - Add Categories with name input integer" classname="Categories" time="0.171">
     <system-out><![CDATA[
 Scenario: Add Categories - Add Categories with name input integer            &amp#27;[90m# src/test/resources/api/Categories.feature:18&amp#27;[0m
-22:56:16.065 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/jasmine/Documents/alterra-mini-project/src/test/resources/api/Categories.feature
-22:56:16.065 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///Users/jasmine/Documents/alterra-mini-project/src/test/resources/api/Categories.feature is not under the 'features' directory. Requirements report will not be correctly generated!
-22:56:16.066 [pool-2-thread-1] INFO  - 
+20:32:21.747 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/jasmine/Documents/alterra-mini-project/src/test/resources/api/Categories.feature
+20:32:21.747 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///Users/jasmine/Documents/alterra-mini-project/src/test/resources/api/Categories.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+20:32:21.749 [pool-2-thread-1] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
@@ -143,21 +143,21 @@ Scenario: Add Categories - Add Categories with name input integer            &am
 
 Add Categories - Add Categories with name input integer(categories;add-categories---add-categories-with-name-input-integer)
 --------------------------------------------------------------------------------
-22:56:16.090 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.setAPIUrlGetProducts - User set api post request add products data valid
-22:56:16.090 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User set api post request add products data valid
+20:32:21.771 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.setAPIUrlGetProducts - User set api post request add products data valid
+20:32:21.772 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User set api post request add products data valid
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser set api post request add categories data valid&amp#27;[0m                  &amp#27;[90m# starter.stepdefinitions.CategoriesSteps.setAPIUrlGetProducts()&amp#27;[0m
-22:56:16.092 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userSendPostApiRequestAddCategoriesInputInteger - User send post api request add categories input integer
-22:56:16.093 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AddCategories.sendRequestAddCategoriesInputInteger - User set api post request add products data valid
-22:56:16.093 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User set api post request add products data valid
-22:56:16.235 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User send post api request add categories input integer
+20:32:21.773 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userSendPostApiRequestAddCategoriesInputInteger - User send post api request add categories input integer
+20:32:21.775 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AddCategories.sendRequestAddCategoriesInputInteger - User set api post request add products data valid
+20:32:21.775 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User set api post request add products data valid
+20:32:21.882 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User send post api request add categories input integer
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser send post api request add categories input integer&amp#27;[0m               &amp#27;[90m# starter.stepdefinitions.CategoriesSteps.userSendPostApiRequestAddCategoriesInputInteger()&amp#27;[0m
-22:56:16.236 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userReceiveValidGetResponseCodeAddCategoriesInputInteger - User receive valid get response code 400 add categories input integer
-22:56:16.237 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User receive valid get response code 400 add categories input integer
+20:32:21.885 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userReceiveValidGetResponseCodeAddCategoriesInputInteger - User receive valid get response code 400 add categories input integer
+20:32:21.886 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User receive valid get response code 400 add categories input integer
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser receive valid get response code 400 add categories input integer&amp#27;[0m &amp#27;[90m# starter.stepdefinitions.CategoriesSteps.userReceiveValidGetResponseCodeAddCategoriesInputInteger()&amp#27;[0m
-22:56:16.239 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userReceiveValidGetResponseBodyForAddCategoriesInputInteger - User receive valid get response body for add categories input integer
-22:56:16.245 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User receive valid get response body for add categories input integer
+20:32:21.889 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userReceiveValidGetResponseBodyForAddCategoriesInputInteger - User receive valid get response body for add categories input integer
+20:32:21.896 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User receive valid get response body for add categories input integer
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser receive valid get response body for add categories input integer&amp#27;[0m  &amp#27;[90m# starter.stepdefinitions.CategoriesSteps.userReceiveValidGetResponseBodyForAddCategoriesInputInteger()&amp#27;[0m
-22:56:16.246 [pool-2-thread-1] INFO  - 
+20:32:21.897 [pool-2-thread-1] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
@@ -167,12 +167,12 @@ Add Categories - Add Categories with name input integer
 ----------------------------------------------------------------------
 ]]></system-out>
   </testcase>
-  <testcase name="Get Categories - Get Categories with url valid" classname="Categories" time="0.405">
+  <testcase name="Get Categories - Get Categories with url valid" classname="Categories" time="0.452">
     <system-out><![CDATA[
 Scenario: Get Categories - Get Categories with url valid       &amp#27;[90m# src/test/resources/api/Categories.feature:24&amp#27;[0m
-22:56:16.254 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/jasmine/Documents/alterra-mini-project/src/test/resources/api/Categories.feature
-22:56:16.254 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///Users/jasmine/Documents/alterra-mini-project/src/test/resources/api/Categories.feature is not under the 'features' directory. Requirements report will not be correctly generated!
-22:56:16.255 [pool-2-thread-1] INFO  - 
+20:32:21.905 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/jasmine/Documents/alterra-mini-project/src/test/resources/api/Categories.feature
+20:32:21.906 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///Users/jasmine/Documents/alterra-mini-project/src/test/resources/api/Categories.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+20:32:21.906 [pool-2-thread-1] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
@@ -180,21 +180,21 @@ Scenario: Get Categories - Get Categories with url valid       &amp#27;[90m# src
 
 Get Categories - Get Categories with url valid(categories;get-categories---get-categories-with-url-valid)
 --------------------------------------------------------------------------------
-22:56:16.270 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userSetApiGetRequestCategories - User set api get request categories
-22:56:16.270 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User set api get request categories
+20:32:21.924 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userSetApiGetRequestCategories - User set api get request categories
+20:32:21.924 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User set api get request categories
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser set api get request categories&amp#27;[0m                    &amp#27;[90m# starter.stepdefinitions.CategoriesSteps.userSetApiGetRequestCategories()&amp#27;[0m
-22:56:16.271 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userSendGETApiRequestCategories - User send GET api request categories
-22:56:16.272 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetCategories.sendRequestUrlCategoriesvalid - User set api get request categories
-22:56:16.272 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User set api get request categories
-22:56:16.465 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User send GET api request categories
+20:32:21.926 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userSendGETApiRequestCategories - User send GET api request categories
+20:32:21.928 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetCategories.sendRequestUrlCategoriesvalid - User set api get request categories
+20:32:21.928 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User set api get request categories
+20:32:22.079 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User send GET api request categories
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser send GET api request categories&amp#27;[0m                    &amp#27;[90m# starter.stepdefinitions.CategoriesSteps.userSendGETApiRequestCategories()&amp#27;[0m
-22:56:16.467 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userReceiveValidGetResponseCodeCategories - User receive valid get response code 200 categories
-22:56:16.468 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User receive valid get response code 200 categories
+20:32:22.081 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userReceiveValidGetResponseCodeCategories - User receive valid get response code 200 categories
+20:32:22.082 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User receive valid get response code 200 categories
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser receive valid get response code 200 categories&amp#27;[0m     &amp#27;[90m# starter.stepdefinitions.CategoriesSteps.userReceiveValidGetResponseCodeCategories()&amp#27;[0m
-22:56:16.469 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userReceiveValidGetResponseBodyDataForCategories - User receive valid get response body data for categories
-22:56:16.651 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User receive valid get response body data for categories
+20:32:22.083 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userReceiveValidGetResponseBodyDataForCategories - User receive valid get response body data for categories
+20:32:22.348 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User receive valid get response body data for categories
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser receive valid get response body data for categories&amp#27;[0m &amp#27;[90m# starter.stepdefinitions.CategoriesSteps.userReceiveValidGetResponseBodyDataForCategories()&amp#27;[0m
-22:56:16.652 [pool-2-thread-1] INFO  - 
+20:32:22.350 [pool-2-thread-1] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
@@ -204,12 +204,12 @@ Get Categories - Get Categories with url valid
 ----------------------------------------------------------------------
 ]]></system-out>
   </testcase>
-  <testcase name="Get Categories - Get Categories with url invalid" classname="Categories" time="0.185">
+  <testcase name="Get Categories - Get Categories with url invalid" classname="Categories" time="0.137">
     <system-out><![CDATA[
 Scenario: Get Categories - Get Categories with url invalid         &amp#27;[90m# src/test/resources/api/Categories.feature:30&amp#27;[0m
-22:56:16.659 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/jasmine/Documents/alterra-mini-project/src/test/resources/api/Categories.feature
-22:56:16.659 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///Users/jasmine/Documents/alterra-mini-project/src/test/resources/api/Categories.feature is not under the 'features' directory. Requirements report will not be correctly generated!
-22:56:16.660 [pool-2-thread-1] INFO  - 
+20:32:22.358 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/jasmine/Documents/alterra-mini-project/src/test/resources/api/Categories.feature
+20:32:22.358 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///Users/jasmine/Documents/alterra-mini-project/src/test/resources/api/Categories.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+20:32:22.359 [pool-2-thread-1] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
@@ -217,18 +217,18 @@ Scenario: Get Categories - Get Categories with url invalid         &amp#27;[90m#
 
 Get Categories - Get Categories with url invalid(categories;get-categories---get-categories-with-url-invalid)
 --------------------------------------------------------------------------------
-22:56:16.675 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userSetApiGetRequestCategoriesUrlInvalid - User set api get request categories url invalid
-22:56:16.676 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User set api get request categories url invalid
+20:32:22.379 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userSetApiGetRequestCategoriesUrlInvalid - User set api get request categories url invalid
+20:32:22.379 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User set api get request categories url invalid
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser set api get request categories url invalid&amp#27;[0m            &amp#27;[90m# starter.stepdefinitions.CategoriesSteps.userSetApiGetRequestCategoriesUrlInvalid()&amp#27;[0m
-22:56:16.677 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userSendGETApiRequestCategoriesWithUrlInvalid - User send GET api request categories with url invalid
-22:56:16.678 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetCategories.sendRequestUrlCategoriesInvalid - User set api get request categories url invalid
-22:56:16.678 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User set api get request categories url invalid
-22:56:16.833 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User send GET api request categories with url invalid
+20:32:22.381 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userSendGETApiRequestCategoriesWithUrlInvalid - User send GET api request categories with url invalid
+20:32:22.382 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetCategories.sendRequestUrlCategoriesInvalid - User set api get request categories url invalid
+20:32:22.382 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User set api get request categories url invalid
+20:32:22.482 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User send GET api request categories with url invalid
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser send GET api request categories with url invalid&amp#27;[0m       &amp#27;[90m# starter.stepdefinitions.CategoriesSteps.userSendGETApiRequestCategoriesWithUrlInvalid()&amp#27;[0m
-22:56:16.836 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userReceiveValidGetResponseCodeCategoriesInvalid - User receive valid get response code 404 categories invalid
-22:56:16.836 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User receive valid get response code 404 categories invalid
+20:32:22.484 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userReceiveValidGetResponseCodeCategoriesInvalid - User receive valid get response code 404 categories invalid
+20:32:22.485 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User receive valid get response code 404 categories invalid
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser receive valid get response code 404 categories invalid&amp#27;[0m &amp#27;[90m# starter.stepdefinitions.CategoriesSteps.userReceiveValidGetResponseCodeCategoriesInvalid()&amp#27;[0m
-22:56:16.837 [pool-2-thread-1] INFO  - 
+20:32:22.486 [pool-2-thread-1] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
@@ -238,12 +238,12 @@ Get Categories - Get Categories with url invalid
 ----------------------------------------------------------------------
 ]]></system-out>
   </testcase>
-  <testcase name="Get Categories By id - Get Categories with id found" classname="Categories" time="0.498">
+  <testcase name="Get Categories By id - Get Categories with id found" classname="Categories" time="0.44">
     <system-out><![CDATA[
 Scenario: Get Categories By id - Get Categories with id found              &amp#27;[90m# src/test/resources/api/Categories.feature:35&amp#27;[0m
-22:56:16.845 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/jasmine/Documents/alterra-mini-project/src/test/resources/api/Categories.feature
-22:56:16.845 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///Users/jasmine/Documents/alterra-mini-project/src/test/resources/api/Categories.feature is not under the 'features' directory. Requirements report will not be correctly generated!
-22:56:16.846 [pool-2-thread-1] INFO  - 
+20:32:22.494 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/jasmine/Documents/alterra-mini-project/src/test/resources/api/Categories.feature
+20:32:22.494 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///Users/jasmine/Documents/alterra-mini-project/src/test/resources/api/Categories.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+20:32:22.495 [pool-2-thread-1] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
@@ -251,31 +251,31 @@ Scenario: Get Categories By id - Get Categories with id found              &amp#
 
 Get Categories By id - Get Categories with id found(categories;get-categories-by-id---get-categories-with-id-found)
 --------------------------------------------------------------------------------
-22:56:16.860 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userSetApiGetRequestCategoriesByIdFound - User set api get request categories
-22:56:16.860 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User set api get request categories
-22:56:16.860 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userSetApiGetRequestCategoriesByIdFound - User send GET api request categories
-22:56:16.861 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetCategories.sendRequestUrlCategoriesvalid - User set api get request categories
-22:56:16.861 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User set api get request categories
-22:56:17.033 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User send GET api request categories
-22:56:17.034 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userSetApiGetRequestCategoriesByIdFound - User receive valid get response code 200 categories
-22:56:17.034 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User receive valid get response code 200 categories
+20:32:22.512 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userSetApiGetRequestCategoriesByIdFound - User set api get request categories
+20:32:22.512 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User set api get request categories
+20:32:22.512 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userSetApiGetRequestCategoriesByIdFound - User send GET api request categories
+20:32:22.513 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetCategories.sendRequestUrlCategoriesvalid - User set api get request categories
+20:32:22.513 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User set api get request categories
+20:32:22.644 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User send GET api request categories
+20:32:22.645 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userSetApiGetRequestCategoriesByIdFound - User receive valid get response code 200 categories
+20:32:22.645 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User receive valid get response code 200 categories
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser set api get request categories by id found&amp#27;[0m                    &amp#27;[90m# starter.stepdefinitions.CategoriesSteps.userSetApiGetRequestCategoriesByIdFound()&amp#27;[0m
-22:56:17.036 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userSendGETApiRequestCategoriesByIdFound - User receive valid get response body data for categories
-22:56:17.157 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User receive valid get response body data for categories
-22:56:17.158 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userSendGETApiRequestCategoriesByIdFound - User set api get request categories by id found
-22:56:17.158 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User set api get request categories by id found
-22:56:17.158 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userSendGETApiRequestCategoriesByIdFound - User send GET api request categories by id found
-22:56:17.159 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetCategoriesById.sendRequestGetCategoriesIdFound - User set api get request categories by id found
-22:56:17.159 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User set api get request categories by id found
-22:56:17.305 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User send GET api request categories by id found
+20:32:22.648 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userSendGETApiRequestCategoriesByIdFound - User receive valid get response body data for categories
+20:32:22.788 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User receive valid get response body data for categories
+20:32:22.788 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userSendGETApiRequestCategoriesByIdFound - User set api get request categories by id found
+20:32:22.789 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User set api get request categories by id found
+20:32:22.789 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userSendGETApiRequestCategoriesByIdFound - User send GET api request categories by id found
+20:32:22.790 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetCategoriesById.sendRequestGetCategoriesIdFound - User set api get request categories by id found
+20:32:22.790 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User set api get request categories by id found
+20:32:22.892 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User send GET api request categories by id found
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser send GET api request categories by id found&amp#27;[0m                    &amp#27;[90m# starter.stepdefinitions.CategoriesSteps.userSendGETApiRequestCategoriesByIdFound()&amp#27;[0m
-22:56:17.307 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userReceiveValidGetResponseCodeCategoriesByIdFound - User receive valid get response code 200 categories by id found
-22:56:17.307 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User receive valid get response code 200 categories by id found
+20:32:22.894 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userReceiveValidGetResponseCodeCategoriesByIdFound - User receive valid get response code 200 categories by id found
+20:32:22.895 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User receive valid get response code 200 categories by id found
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser receive valid get response code 200 categories by id found&amp#27;[0m     &amp#27;[90m# starter.stepdefinitions.CategoriesSteps.userReceiveValidGetResponseCodeCategoriesByIdFound()&amp#27;[0m
-22:56:17.309 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userReceiveValidGetResponseBodyDataForCategoriesByIdFound - User receive valid get response body data for categories by id found
-22:56:17.334 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User receive valid get response body data for categories by id found
+20:32:22.896 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userReceiveValidGetResponseBodyDataForCategoriesByIdFound - User receive valid get response body data for categories by id found
+20:32:22.926 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User receive valid get response body data for categories by id found
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser receive valid get response body data for categories by id found&amp#27;[0m &amp#27;[90m# starter.stepdefinitions.CategoriesSteps.userReceiveValidGetResponseBodyDataForCategoriesByIdFound()&amp#27;[0m
-22:56:17.335 [pool-2-thread-1] INFO  - 
+20:32:22.927 [pool-2-thread-1] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
@@ -285,12 +285,12 @@ Get Categories By id - Get Categories with id found
 ----------------------------------------------------------------------
 ]]></system-out>
   </testcase>
-  <testcase name="Get Categories By id - Get Categories with id not found" classname="Categories" time="0.182">
+  <testcase name="Get Categories By id - Get Categories with id not found" classname="Categories" time="0.138">
     <system-out><![CDATA[
 Scenario: Get Categories By id - Get Categories with id not found              &amp#27;[90m# src/test/resources/api/Categories.feature:41&amp#27;[0m
-22:56:17.343 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/jasmine/Documents/alterra-mini-project/src/test/resources/api/Categories.feature
-22:56:17.343 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///Users/jasmine/Documents/alterra-mini-project/src/test/resources/api/Categories.feature is not under the 'features' directory. Requirements report will not be correctly generated!
-22:56:17.344 [pool-2-thread-1] INFO  - 
+20:32:22.934 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/jasmine/Documents/alterra-mini-project/src/test/resources/api/Categories.feature
+20:32:22.934 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///Users/jasmine/Documents/alterra-mini-project/src/test/resources/api/Categories.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+20:32:22.935 [pool-2-thread-1] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
@@ -298,21 +298,21 @@ Scenario: Get Categories By id - Get Categories with id not found              &
 
 Get Categories By id - Get Categories with id not found(categories;get-categories-by-id---get-categories-with-id-not-found)
 --------------------------------------------------------------------------------
-22:56:17.358 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userSetApiGetRequestCategoriesByIdNotFound - User set api get request categories by id not found
-22:56:17.358 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User set api get request categories by id not found
+20:32:22.949 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userSetApiGetRequestCategoriesByIdNotFound - User set api get request categories by id not found
+20:32:22.950 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User set api get request categories by id not found
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser set api get request categories by id not found&amp#27;[0m                    &amp#27;[90m# starter.stepdefinitions.CategoriesSteps.userSetApiGetRequestCategoriesByIdNotFound()&amp#27;[0m
-22:56:17.359 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userSendGETApiRequestCategoriesByIdNotFound - User send GET api request categories by id not found
-22:56:17.360 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetCategoriesById.sendRequestGetCategoriesIdNotFound - User set api get request categories by id not found
-22:56:17.360 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User set api get request categories by id not found
-22:56:17.505 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User send GET api request categories by id not found
+20:32:22.951 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userSendGETApiRequestCategoriesByIdNotFound - User send GET api request categories by id not found
+20:32:22.952 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetCategoriesById.sendRequestGetCategoriesIdNotFound - User set api get request categories by id not found
+20:32:22.952 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User set api get request categories by id not found
+20:32:23.051 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User send GET api request categories by id not found
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser send GET api request categories by id not found&amp#27;[0m                    &amp#27;[90m# starter.stepdefinitions.CategoriesSteps.userSendGETApiRequestCategoriesByIdNotFound()&amp#27;[0m
-22:56:17.507 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userReceiveValidGetResponseCodeCategoriesByIdNotFound - User receive valid get response code 404 categories by id not found
-22:56:17.508 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User receive valid get response code 404 categories by id not found
+20:32:23.053 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userReceiveValidGetResponseCodeCategoriesByIdNotFound - User receive valid get response code 404 categories by id not found
+20:32:23.054 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User receive valid get response code 404 categories by id not found
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser receive valid get response code 404 categories by id not found&amp#27;[0m     &amp#27;[90m# starter.stepdefinitions.CategoriesSteps.userReceiveValidGetResponseCodeCategoriesByIdNotFound()&amp#27;[0m
-22:56:17.509 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userReceiveValidGetResponseBodyDataForCategoriesByIdNotFound - User receive valid get response body data for categories by id not found
-22:56:17.516 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User receive valid get response body data for categories by id not found
+20:32:23.055 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userReceiveValidGetResponseBodyDataForCategoriesByIdNotFound - User receive valid get response body data for categories by id not found
+20:32:23.062 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User receive valid get response body data for categories by id not found
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser receive valid get response body data for categories by id not found&amp#27;[0m &amp#27;[90m# starter.stepdefinitions.CategoriesSteps.userReceiveValidGetResponseBodyDataForCategoriesByIdNotFound()&amp#27;[0m
-22:56:17.516 [pool-2-thread-1] INFO  - 
+20:32:23.064 [pool-2-thread-1] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
@@ -322,12 +322,12 @@ Get Categories By id - Get Categories with id not found
 ----------------------------------------------------------------------
 ]]></system-out>
   </testcase>
-  <testcase name="Get Categories By id - Get Categories with id input string" classname="Categories" time="0.181">
+  <testcase name="Get Categories By id - Get Categories with id input string" classname="Categories" time="0.14">
     <system-out><![CDATA[
 Scenario: Get Categories By id - Get Categories with id input string              &amp#27;[90m# src/test/resources/api/Categories.feature:47&amp#27;[0m
-22:56:17.524 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/jasmine/Documents/alterra-mini-project/src/test/resources/api/Categories.feature
-22:56:17.524 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///Users/jasmine/Documents/alterra-mini-project/src/test/resources/api/Categories.feature is not under the 'features' directory. Requirements report will not be correctly generated!
-22:56:17.525 [pool-2-thread-1] INFO  - 
+20:32:23.072 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/jasmine/Documents/alterra-mini-project/src/test/resources/api/Categories.feature
+20:32:23.072 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///Users/jasmine/Documents/alterra-mini-project/src/test/resources/api/Categories.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+20:32:23.073 [pool-2-thread-1] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
@@ -335,21 +335,21 @@ Scenario: Get Categories By id - Get Categories with id input string            
 
 Get Categories By id - Get Categories with id input string(categories;get-categories-by-id---get-categories-with-id-input-string)
 --------------------------------------------------------------------------------
-22:56:17.539 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userSetApiGetRequestCategoriesByIdInputString - User set api get request categories by id input string
-22:56:17.539 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User set api get request categories by id input string
+20:32:23.094 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userSetApiGetRequestCategoriesByIdInputString - User set api get request categories by id input string
+20:32:23.095 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User set api get request categories by id input string
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser set api get request categories by id input string&amp#27;[0m                    &amp#27;[90m# starter.stepdefinitions.CategoriesSteps.userSetApiGetRequestCategoriesByIdInputString()&amp#27;[0m
-22:56:17.541 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userSendGETApiRequestCategoriesByIdInputString - User send GET api request categories by id input string
-22:56:17.542 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetCategoriesById.sendRequestGetCategoriesInputString - User set api get request categories by id input string
-22:56:17.542 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User set api get request categories by id input string
-22:56:17.686 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User send GET api request categories by id input string
+20:32:23.097 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userSendGETApiRequestCategoriesByIdInputString - User send GET api request categories by id input string
+20:32:23.098 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetCategoriesById.sendRequestGetCategoriesInputString - User set api get request categories by id input string
+20:32:23.098 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User set api get request categories by id input string
+20:32:23.192 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User send GET api request categories by id input string
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser send GET api request categories by id input string&amp#27;[0m                    &amp#27;[90m# starter.stepdefinitions.CategoriesSteps.userSendGETApiRequestCategoriesByIdInputString()&amp#27;[0m
-22:56:17.688 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userReceiveValidGetResponseCodeCategoriesByIdInputString - User receive valid get response code 400 categories by id input string
-22:56:17.688 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User receive valid get response code 400 categories by id input string
+20:32:23.194 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userReceiveValidGetResponseCodeCategoriesByIdInputString - User receive valid get response code 400 categories by id input string
+20:32:23.195 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User receive valid get response code 400 categories by id input string
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser receive valid get response code 400 categories by id input string&amp#27;[0m     &amp#27;[90m# starter.stepdefinitions.CategoriesSteps.userReceiveValidGetResponseCodeCategoriesByIdInputString()&amp#27;[0m
-22:56:17.690 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userReceiveValidGetResponseBodyDataForCategoriesByIdInputString - User receive valid get response body data for categories by id input string
-22:56:17.697 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User receive valid get response body data for categories by id input string
+20:32:23.197 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CategoriesSteps.userReceiveValidGetResponseBodyDataForCategoriesByIdInputString - User receive valid get response body data for categories by id input string
+20:32:23.204 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: User receive valid get response body data for categories by id input string
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser receive valid get response body data for categories by id input string&amp#27;[0m &amp#27;[90m# starter.stepdefinitions.CategoriesSteps.userReceiveValidGetResponseBodyDataForCategoriesByIdInputString()&amp#27;[0m
-22:56:17.698 [pool-2-thread-1] INFO  - 
+20:32:23.205 [pool-2-thread-1] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
